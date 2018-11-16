@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenario>
+    <security content="FOR_RESOURCES"/>
+    <resources exportHandles="false" exportPrivates="false" recursionDepth="ALL">
+        <resource exportPrivates="true" path="IBFS:/WFC/Repository/GitSample" recursionDepth="ALL"/>
+    </resources>
+</scenario>

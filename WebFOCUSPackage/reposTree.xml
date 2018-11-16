@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<folder dummy="true" handle="" name="ROOT" path="IBFS:">
+    <folder dummy="true" handle="" name="SSYS" path="IBFS:/SSYS">
+        <folder dummy="true" handle="" name="GROUPS" path="IBFS:/SSYS/GROUPS">
+            <folder dummy="true" handle="" name="GitSample" path="IBFS:/SSYS/GROUPS/GitSample">
+                <folder dummy="false" handle="" name="AdvancedUsers" path="IBFS:/SSYS/GROUPS/GitSample/AdvancedUsers" users=""/>
+                <folder dummy="false" handle="" name="BasicUsers" path="IBFS:/SSYS/GROUPS/GitSample/BasicUsers" users=""/>
+                <folder dummy="false" handle="" name="Developers" path="IBFS:/SSYS/GROUPS/GitSample/Developers" users=""/>
+                <folder dummy="false" handle="" name="GroupAdmins" path="IBFS:/SSYS/GROUPS/GitSample/GroupAdmins" users=""/>
+            </folder>
+            <folder dummy="false" handle="" name="Managers" path="IBFS:/SSYS/GROUPS/Managers" users=""/>
+        </folder>
+        <folder dummy="true" handle="" name="ROLES" path="IBFS:/SSYS/ROLES">
+            <item dummy="false" handle="" name="DomainAdvancedUser" path="IBFS:/SSYS/ROLES/DomainAdvancedUser"/>
+            <item dummy="false" handle="" name="DomainBasicUser" path="IBFS:/SSYS/ROLES/DomainBasicUser"/>
+            <item dummy="false" handle="" name="DomainDeveloper" path="IBFS:/SSYS/ROLES/DomainDeveloper"/>
+            <item dummy="false" handle="" name="DomainDeveloperRestrictions" path="IBFS:/SSYS/ROLES/DomainDeveloperRestrictions"/>
+            <item dummy="false" handle="" name="DomainGroupAdmin" path="IBFS:/SSYS/ROLES/DomainGroupAdmin"/>
+            <item dummy="false" handle="" name="DomainGroupAdminRestrictions" path="IBFS:/SSYS/ROLES/DomainGroupAdminRestrictions"/>
+            <item dummy="false" handle="" name="WebFOCUSManagerDomainRestrictions" path="IBFS:/SSYS/ROLES/WebFOCUSManagerDomainRestrictions"/>
+        </folder>
+    </folder>
+    <folder dummy="true" handle="" name="WFC" path="IBFS:/WFC">
+        <folder dummy="true" handle="" name="Repository" path="IBFS:/WFC/Repository">
+            <folder dummy="false" handle="" name="GitSample" path="IBFS:/WFC/Repository/GitSample">
+                <folder dummy="false" handle="" name="Hidden_Content" path="IBFS:/WFC/Repository/GitSample/Hidden_Content">
+                    <item dummy="false" handle="" name="SampleFile1.fex" path="IBFS:/WFC/Repository/GitSample/Hidden_Content/SampleFile1.fex"/>
+                </folder>
+                <folder dummy="false" handle="" name="~admin" path="IBFS:/WFC/Repository/GitSample/~admin"/>
+            </folder>
+        </folder>
+    </folder>
+</folder>
